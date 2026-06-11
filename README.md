@@ -1,21 +1,65 @@
-# Real-Estate-Price-Prediction
+# 🏠 Real Estate Price Prediction
 
-## Data Cleaning
+## 📌 Overview
 
-### Step 1: Missing Value Analysis
-- Used `isna().sum()` to identify missing values
+A Machine Learning-powered web application that predicts real estate prices in Bangalore based on property features such as location, total square footage, number of bedrooms, and bathrooms.
 
-### Step 2: Missing Value Treatment
-- Removed rows with missing values
-- Considered median imputation for numerical columns
+The project demonstrates the complete Machine Learning workflow, including data cleaning, feature engineering, model training, hyperparameter tuning, model serialization, backend API development, and frontend integration.
 
-### Step 3: BHK Extraction
-- Extracted BHK count from `size` column
+---
 
-### Step 4: Square Footage Cleaning
-- Identified invalid `total_sqft` values
-- Converted ranges such as `2100-2850` into numeric values
+## 🎯 Objectives
 
-### Step 5: Dataset Preparation
-- Created cleaned dataset for feature engineering
+* Predict house prices accurately using historical real estate data.
+* Build an end-to-end Machine Learning application.
+* Deploy a trained model through a Flask backend.
+* Provide a simple and interactive user interface for predictions.
 
+---
+
+## 🛠️ Tech Stack
+
+### Data Processing
+
+* Pandas
+* NumPy
+
+### Machine Learning
+
+* Scikit-Learn
+* Linear Regression
+* Cross Validation
+* Hyperparameter Tuning
+
+### Backend
+
+* Flask
+
+### Frontend
+
+* HTML
+* CSS
+* JavaScript
+
+---
+
+## 📊 Project Workflow
+
+### 1. Data Cleaning
+
+* Missing Value Handling
+* Data Standardization
+* Square Footage Conversion
+* Invalid Data Detection
+
+### 2. Feature Engineering
+
+* BHK Extraction
+* Price Per Square Foot
+* Location-Based Features
+* Rare Category Handling
+
+
+## 📜 License
+
+This project is developed for educational and portfolio purposes.
